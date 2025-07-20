@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GaMee | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Nav Menu-->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name"> GaMee </p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav-menu-list">
+                    <li class="nav-list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!--Dark mode-->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!--main-->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I'm</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Ganesh Meesala. I'm a web developer.</p>
+                    </div>
+                    <div class="text-btn">
+                        <button href="resume.pdf" class="btn"> Download CV <i class="uil uil-file"></i></button>
+                    </div>
+                    <div class="social-icons">
+                        <div class="icon-circle"></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/ganeshmeesala7" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a href="https://github.com/GaneshMeesala7" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+                        <div class="icon"><a href="" target="_blank"><i class="uil uil-instagram"></i></a></div>
+                        <div class="icon"><a href="" target="_blank"><i class="uil uil-twitter-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="profile.jpg" alt="Ganesh Meesala Profile Picture" class="profile" />
+                                    <h2> Web developer</h2>
+                                    <p>
+                                        I'm an enthusiastic and dedicated software developer eager to contribute skills and knowledge in a dynamic team environment. Seeking a challenging role as a software developer to leverage academic background, practical project experience, and passion for technology in developing innovative solutions.
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar">
+                                <span class="skill-per html">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar">
+                                <span class="skill-per css">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Java Script</span>
+                            <div class="skill-bar">
+                                <span class="skill-per javascript">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Python</span>
+                            <div class="skill-bar">
+                                <span class="skill-per python">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">SQL</span>
+                            <div class="skill-bar">
+                                <span class="skill-per sql">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Project box-->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Video Recorder</h3>
+                        <label>HTML, CSS and JS</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Personal Diary Application</h3>
+                        <label>Python</label>
+                    </div>
+                </div>
+            </section>
+            <!--contact box-->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>
+                        Let's Work Together
+                    </h1>
+                    <span>To hire me, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2> Find me <i class="uil uil-corder-right-down"></i></h2>
+                            <a href="mailto:ganeshmisala11@gmail.com"><i class="uil uil-envelope"> ganeshmisala11@gmail.com </i></a>
+                            <a href="tel:+918919373759"><i class="uil uil-phone"> +918919373759 </i></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Your Name">
+                                <input type="text" class="input-field" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--footer-->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a href="https://www.linkedin.com/in/ganeshmeesala7" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="https://github.com/GaneshMeesala7" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+                <div class="icon"><a href="" target="_blank"><i class="uil uil-instagram"></i></a></div>
+                <div class="icon"><a href="" target="_blank"><i class="uil uil-twitter-alt"></i></a></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Ganesh Meesala</a> - All rights reserved 2024</p>
+            </div>
+        </footer>
+    </div>
+    <!-- Include Typed.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <!-- Include ScrollReveal.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+</body>
+
+</html>
